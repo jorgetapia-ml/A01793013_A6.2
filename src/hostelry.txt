@@ -1,0 +1,298 @@
+----------------PyLint-------------------
+
+------------------------------------
+Your code has been rated at 10.00/10
+
+----------------flake8-------------------
+hostelry_module/customer.py:53:80: E501 line too long (100 > 79 characters)
+hostelry_module/customer.py:58:80: E501 line too long (89 > 79 characters)
+flake8 finish
+----------------PyLint-------------------
+************* Module hostelry_module.reservation
+hostelry_module/reservation.py:24:67: C0303: Trailing whitespace (trailing-whitespace)
+hostelry_module/reservation.py:24:4: R0913: Too many arguments (6/5) (too-many-arguments)
+
+-----------------------------------
+Your code has been rated at 9.26/10
+
+----------------flake8-------------------
+hostelry_module/reservation.py:4:1: E302 expected 2 blank lines, found 1
+hostelry_module/reservation.py:24:68: W291 trailing whitespace
+hostelry_module/reservation.py:26:80: E501 line too long (81 > 79 characters)
+hostelry_module/reservation.py:42:80: E501 line too long (91 > 79 characters)
+flake8 finish
+----------------PyLint-------------------
+
+------------------------------------
+Your code has been rated at 10.00/10
+
+----------------flake8-------------------
+hostelry_module/hotel.py:4:1: E302 expected 2 blank lines, found 1
+hostelry_module/hotel.py:51:80: E501 line too long (96 > 79 characters)
+hostelry_module/hotel.py:56:80: E501 line too long (86 > 79 characters)
+flake8 finish
+----------------Coverage-------------------
+----------------PyLint-------------------
+************* Module hostelry_module.customer
+hostelry_module/customer.py:59:51: C0303: Trailing whitespace (trailing-whitespace)
+
+-------------------------------------------------------------------
+Your code has been rated at 9.77/10 (previous run: 10.00/10, -0.23)
+
+----------------flake8-------------------
+hostelry_module/customer.py:59:52: W291 trailing whitespace
+flake8 finish
+----------------PyLint-------------------
+************* Module hostelry_module.reservation
+hostelry_module/reservation.py:25:67: C0303: Trailing whitespace (trailing-whitespace)
+hostelry_module/reservation.py:25:4: R0913: Too many arguments (6/5) (too-many-arguments)
+
+------------------------------------------------------------------
+Your code has been rated at 9.26/10 (previous run: 9.26/10, +0.00)
+
+----------------flake8-------------------
+hostelry_module/reservation.py:25:68: W291 trailing whitespace
+flake8 finish
+----------------PyLint-------------------
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+----------------flake8-------------------
+flake8 finish
+----------------Coverage-------------------
+----------------PyLint-------------------
+************* Module hostelry_module.customer
+hostelry_module/customer.py:59:51: C0303: Trailing whitespace (trailing-whitespace)
+
+------------------------------------------------------------------
+Your code has been rated at 9.77/10 (previous run: 9.77/10, +0.00)
+
+----------------flake8-------------------
+hostelry_module/customer.py:59:52: W291 trailing whitespace
+flake8 finish
+----------------PyLint-------------------
+************* Module hostelry_module.reservation
+hostelry_module/reservation.py:25:67: C0303: Trailing whitespace (trailing-whitespace)
+hostelry_module/reservation.py:25:4: R0913: Too many arguments (6/5) (too-many-arguments)
+
+------------------------------------------------------------------
+Your code has been rated at 9.26/10 (previous run: 9.26/10, +0.00)
+
+----------------flake8-------------------
+hostelry_module/reservation.py:25:68: W291 trailing whitespace
+flake8 finish
+----------------PyLint-------------------
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+----------------flake8-------------------
+flake8 finish
+----------------Coverage-------------------
+----------------PyLint-------------------
+************* Module hostelry_module.customer
+hostelry_module/customer.py:59:51: C0303: Trailing whitespace (trailing-whitespace)
+
+------------------------------------------------------------------
+Your code has been rated at 9.77/10 (previous run: 9.77/10, +0.00)
+
+----------------flake8-------------------
+hostelry_module/customer.py:59:52: W291 trailing whitespace
+flake8 finish
+----------------PyLint-------------------
+************* Module hostelry_module.reservation
+hostelry_module/reservation.py:25:4: R0913: Too many arguments (6/5) (too-many-arguments)
+
+------------------------------------------------------------------
+Your code has been rated at 9.63/10 (previous run: 9.26/10, +0.37)
+
+----------------flake8-------------------
+flake8 finish
+----------------PyLint-------------------
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+----------------flake8-------------------
+flake8 finish
+----------------Coverage-------------------
+----------------PyLint-------------------
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.77/10, +0.23)
+
+----------------flake8-------------------
+flake8 finish
+----------------PyLint-------------------
+************* Module hostelry_module.reservation
+hostelry_module/reservation.py:25:4: R0913: Too many arguments (6/5) (too-many-arguments)
+
+------------------------------------------------------------------
+Your code has been rated at 9.63/10 (previous run: 9.63/10, +0.00)
+
+----------------flake8-------------------
+flake8 finish
+----------------PyLint-------------------
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+----------------flake8-------------------
+flake8 finish
+----------------Coverage-------------------
+----------------PyLint-------------------
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+----------------flake8-------------------
+flake8 finish
+----------------PyLint-------------------
+************* Module hostelry_module.reservation
+hostelry_module/reservation.py:25:4: R0913: Too many arguments (6/5) (too-many-arguments)
+hostelry_module/reservation.py:40:29: E0602: Undefined variable 'reservation_id' (undefined-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 7.78/10 (previous run: 9.63/10, -1.85)
+
+----------------flake8-------------------
+hostelry_module/reservation.py:40:30: F821 undefined name 'reservation_id'
+flake8 finish
+----------------PyLint-------------------
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+----------------flake8-------------------
+flake8 finish
+----------------Coverage-------------------
+----------------PyLint-------------------
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+----------------flake8-------------------
+flake8 finish
+----------------PyLint-------------------
+************* Module hostelry_module.reservation
+hostelry_module/reservation.py:25:4: R0913: Too many arguments (6/5) (too-many-arguments)
+
+------------------------------------------------------------------
+Your code has been rated at 9.63/10 (previous run: 7.78/10, +1.85)
+
+----------------flake8-------------------
+flake8 finish
+----------------PyLint-------------------
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+----------------flake8-------------------
+flake8 finish
+----------------Coverage-------------------
+----------------PyLint-------------------
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+----------------flake8-------------------
+flake8 finish
+----------------PyLint-------------------
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.63/10, +0.37)
+
+----------------flake8-------------------
+flake8 finish
+----------------PyLint-------------------
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+----------------flake8-------------------
+flake8 finish
+----------------Coverage-------------------
+----------------PyLint-------------------
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+----------------flake8-------------------
+flake8 finish
+----------------PyLint-------------------
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+----------------flake8-------------------
+flake8 finish
+----------------PyLint-------------------
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+----------------flake8-------------------
+flake8 finish
+----------------Coverage-------------------
+Reservation with id 1 does not exist.
+Customer Test Customer created successfully.
+Hotel Test Hotel created successfully.
+Hotel with id 1 already exists.
+Customer with id 1 already exists.
+Reservation 1 created successfully.
+Customer Delete Customer created successfully.
+Customer 2 deleted successfully.
+Customer with id 3 does not exist.
+Hotel Delete Hotel created successfully.
+Hotel 2 deleted successfully.
+Customer Show Customer created successfully.
+Customer 3 deleted successfully.
+Hotel Grand Plaza created successfully.
+Hotel 3 deleted successfully.
+----------------PyLint-------------------
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+----------------flake8-------------------
+flake8 finish
+----------------PyLint-------------------
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+----------------flake8-------------------
+flake8 finish
+----------------PyLint-------------------
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+----------------flake8-------------------
+flake8 finish
+----------------Coverage-------------------
+Reservation with id 1 does not exist.
+Customer Test Customer created successfully.
+Hotel Test Hotel created successfully.
+Hotel with id 1 already exists.
+Customer with id 1 already exists.
+Reservation 1 created successfully.
+Customer Delete Customer created successfully.
+Customer 2 deleted successfully.
+Customer with id 3 does not exist.
+Hotel Delete Hotel created successfully.
+Hotel 2 deleted successfully.
+Customer Show Customer created successfully.
+Customer 3 deleted successfully.
+Hotel Grand Plaza created successfully.
+Hotel 3 deleted successfully.
+Name                             Stmts   Miss  Cover
+----------------------------------------------------
+hostelry_module/__init__.py          4      0   100%
+hostelry_module/customer.py         49     10    80%
+hostelry_module/hotel.py            49     10    80%
+hostelry_module/reservation.py      31      5    84%
+hotel_unitest.py                    69      4    94%
+----------------------------------------------------
+TOTAL                              202     29    86%

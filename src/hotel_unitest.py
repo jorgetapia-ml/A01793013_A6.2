@@ -83,7 +83,7 @@ class TestHotelManagementSystem(unittest.TestCase):
         """Test creating a new reservation and verifying it exists in the system."""
         Hotel.create_hotel(1, "Reservation Hotel", "Reservation Location")
         Customer.create_customer(1, "Reservation Customer", "reservation@customer.com")
-        Reservation.create_reservation(1, 1, 1, "2024-01-01", "2024-01-05")
+        Reservation.create_reservation(1, 1, 1, "2024-01-01")
         Reservation.load_reservations()
         self.assertIn('1', Reservation.reservations)
 

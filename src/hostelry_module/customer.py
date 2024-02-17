@@ -1,6 +1,7 @@
 """ Customer mdoule"""
 import json
 
+
 class Customer:
     """A class to manage customer information and operations."""
     customers = {}
@@ -48,12 +49,15 @@ class Customer:
         cls.load_customers()
         if str(customer_id) in cls.customers:
             customer = cls.customers[str(customer_id)]
-            print(f"Customer ID: {customer_id}, Name: {customer['name']}, Email: {customer['email']}")
+            print(
+                f"Customer ID: {customer_id},",
+                f"Name: {customer['name']}, Email: {customer['email']}")
         else:
             print(f"Customer with id {customer_id} does not exist.")
 
     @classmethod
-    def update_customer_info(cls, customer_id: int, name: str = None, email: str = None):
+    def update_customer_info(cls, customer_id: int,
+                             name: str = None, email: str = None):
         """Update information of a specific customer."""
         cls.load_customers()
         if str(customer_id) in cls.customers:

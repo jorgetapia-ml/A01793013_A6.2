@@ -19,3 +19,4 @@ done
 
 echo "----------------Coverage-------------------" | tee -a "$log_file"
 coverage run -m unittest hotel_unitest.py | tee -a "$log_file"
+coverage report | tee -a "$log_file"

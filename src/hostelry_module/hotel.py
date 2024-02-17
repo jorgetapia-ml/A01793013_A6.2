@@ -1,6 +1,7 @@
 """Hotel module"""
 import json
 
+
 class Hotel:
     """A class to manage hotel information and operations."""
     hotels = {}
@@ -48,12 +49,14 @@ class Hotel:
         cls.load_hotels()
         if str(hotel_id) in cls.hotels:
             hotel = cls.hotels[str(hotel_id)]
-            print(f"Hotel ID: {hotel_id}, Name: {hotel['name']}, Location: {hotel['location']}")
+            print(f"Hotel ID: {hotel_id}",
+                  f"Name: {hotel['name']}, Location: {hotel['location']}")
         else:
             print(f"Hotel with id {hotel_id} does not exist.")
 
     @classmethod
-    def update_hotel_info(cls, hotel_id: int, name: str = None, location: str = None):
+    def update_hotel_info(cls, hotel_id: int, name: str = None,
+                          location: str = None):
         """Update information of a specific hotel."""
         cls.load_hotels()
         if str(hotel_id) in cls.hotels:

@@ -1,6 +1,7 @@
 """Reservation Module"""
 import json
 
+
 class Reservation:
     """A class to manage reservation information and operations."""
     reservations = {}
@@ -21,9 +22,10 @@ class Reservation:
             json.dump(Reservation.reservations, file, indent=4)
 
     @classmethod
-    def create_reservation(cls, reservation_id: int, hotel_id: int, 
-                           customer_id: int, check_in: str, check_out: str):
-        """Create a new reservation and add it to the reservations dictionary."""
+    def create_reservation(cls, reservation_id: int, hotel_id: int,
+                           customer_id: int, check_in: str):
+        """Create a new reservation and
+            add it to the reservations dictionary."""
         cls.load_reservations()
         if str(reservation_id) in cls.reservations:
             print(f"Reservation with id {reservation_id} already exists.")
@@ -32,14 +34,14 @@ class Reservation:
             "hotel_id": hotel_id,
             "customer_id": customer_id,
             "check_in": check_in,
-            "check_out": check_out
         }
         cls.save_reservations()
         print(f"Reservation {reservation_id} created successfully.")
 
     @classmethod
     def cancel_reservation(cls, reservation_id: int):
-        """Cancel a specific reservation and remove it from the reservations dictionary."""
+        """Cancel a specific reservation and
+            remove it from the reservations dictionary."""
         cls.load_reservations()
         if str(reservation_id) in cls.reservations:
             del cls.reservations[str(reservation_id)]
