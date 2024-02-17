@@ -70,6 +70,15 @@ class TestHotelManagementSystem(unittest.TestCase):
         Customer.load_customers()
         self.assertNotIn('2', Customer.customers)
 
+    def test_show_customer(self):
+        """Test that show_hotel_info prints the correct information."""
+        Customer.create_customer(3, "Show Customer", "show@customer.com")
+        with patch('sys.stdout', new=io.StringIO()) as fake_out:
+            Customer.show_customer_info(3)
+            self.assertIn("Show Customer", fake_out.getvalue())
+            self.assertIn("show@customer.com", fake_out.getvalue())
+        Customer.delete_customer(3)
+
     def test_create_reservation(self):
         """Test creating a new reservation and verifying it exists in the system."""
         Hotel.create_hotel(1, "Reservation Hotel", "Reservation Location")
