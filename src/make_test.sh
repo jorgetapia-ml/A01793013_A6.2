@@ -7,7 +7,7 @@ paths=(
 
 for i in "${!paths[@]}"; do
     path="${paths[$i]}"
-    echo "-------------------Testing with $path-------------------"
+    echo Testing with $path
     
     echo "----------------PyLint-------------------" | tee -a "$log_file"
     pylint $path | tee -a "$log_file"

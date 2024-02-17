@@ -296,3 +296,141 @@ hostelry_module/reservation.py      31      5    84%
 hotel_unitest.py                    69      4    94%
 ----------------------------------------------------
 TOTAL                              202     29    86%
+----------------PyLint-------------------
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+----------------flake8-------------------
+flake8 finish
+----------------PyLint-------------------
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+----------------flake8-------------------
+flake8 finish
+----------------PyLint-------------------
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+----------------flake8-------------------
+flake8 finish
+----------------Coverage-------------------
+Reservation with id 1 does not exist.
+Customer Test Customer created successfully.
+Hotel Test Hotel created successfully.
+Hotel with id 1 already exists.
+Customer with id 1 already exists.
+Reservation 1 created successfully.
+Customer Delete Customer created successfully.
+Customer 2 deleted successfully.
+Customer with id 3 does not exist.
+Hotel Delete Hotel created successfully.
+Hotel 2 deleted successfully.
+Customer Show Customer created successfully.
+Customer 3 deleted successfully.
+Hotel Grand Plaza created successfully.
+Hotel 3 deleted successfully.
+Name                             Stmts   Miss  Cover
+----------------------------------------------------
+hostelry_module/__init__.py          4      0   100%
+hostelry_module/customer.py         49     10    80%
+hostelry_module/hotel.py            49     10    80%
+hostelry_module/reservation.py      31      5    84%
+hotel_unitest.py                    69      4    94%
+----------------------------------------------------
+TOTAL                              202     29    86%
+----------------PyLint-------------------
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+----------------flake8-------------------
+flake8 finish
+----------------PyLint-------------------
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+----------------flake8-------------------
+flake8 finish
+----------------PyLint-------------------
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+----------------flake8-------------------
+flake8 finish
+----------------Coverage-------------------
+Reservation with id 1 does not exist.
+Customer Test Customer created successfully.
+Hotel Test Hotel created successfully.
+Hotel with id 1 already exists.
+Customer with id 1 already exists.
+Reservation 1 created successfully.
+Customer Delete Customer created successfully.
+Customer 2 deleted successfully.
+Customer with id 3 does not exist.
+Hotel Delete Hotel created successfully.
+Hotel 2 deleted successfully.
+Customer Show Customer created successfully.
+Customer 3 deleted successfully.
+Hotel Grand Plaza created successfully.
+Hotel 3 deleted successfully.
+Name                             Stmts   Miss  Cover
+----------------------------------------------------
+hostelry_module/__init__.py          4      0   100%
+hostelry_module/customer.py         49     10    80%
+hostelry_module/hotel.py            49     10    80%
+hostelry_module/reservation.py      31      5    84%
+hotel_unitest.py                    69      4    94%
+----------------------------------------------------
+TOTAL                              202     29    86%
+----------------PyLint-------------------
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+----------------flake8-------------------
+flake8 finish
+----------------PyLint-------------------
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+----------------flake8-------------------
+flake8 finish
+----------------PyLint-------------------
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+----------------flake8-------------------
+flake8 finish
+----------------Coverage-------------------
+Reservation with id 1 does not exist.
+Customer Test Customer created successfully.
+Hotel Test Hotel created successfully.
+Hotel with id 1 already exists.
+Customer with id 1 already exists.
+Reservation 1 created successfully.
+Customer Delete Customer created successfully.
+Customer 2 deleted successfully.
+Customer with id 3 does not exist.
+Hotel Delete Hotel created successfully.
+Hotel 2 deleted successfully.
+Customer Show Customer created successfully.
+Customer 3 deleted successfully.
+Hotel Grand Plaza created successfully.
+Hotel 3 deleted successfully.
+Name                             Stmts   Miss  Cover
+----------------------------------------------------
+hostelry_module/__init__.py          4      0   100%
+hostelry_module/customer.py         49     10    80%
+hostelry_module/hotel.py            49     10    80%
+hostelry_module/reservation.py      31      5    84%
+hotel_unitest.py                    69      4    94%
+----------------------------------------------------
+TOTAL                              202     29    86%
