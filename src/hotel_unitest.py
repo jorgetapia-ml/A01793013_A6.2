@@ -1,7 +1,9 @@
 """unittest module"""
 import unittest
 import os
+import io
 from hostelry_module import Hotel, Customer, Reservation
+from unittest.mock import patch
 
 class TestHotelManagementSystem(unittest.TestCase):
     """
@@ -42,6 +44,17 @@ class TestHotelManagementSystem(unittest.TestCase):
         Hotel.delete_hotel(2)
         Hotel.load_hotels()
         self.assertNotIn('2', Hotel.hotels)
+
+    def test_show_hotel(self):
+        """Test that show_hotel_info prints the correct information."""
+        Hotel.create_hotel(3, "Grand Plaza", "Downtown")
+        with patch('sys.stdout', new=io.StringIO()) as fake_out:
+            Hotel.show_hotel_info(3)
+            Hotel.show_hotel_info(4)
+            self.assertIn("Grand Plaza", fake_out.getvalue())
+            self.assertIn("Downtown", fake_out.getvalue())
+            self.assertIn("does not exist.", fake_out.getvalue())            
+        Hotel.delete_hotel(3)
 
     def test_create_customer(self):
         """Test creating a new customer and verifying it exists in the system."""
