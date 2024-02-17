@@ -53,7 +53,7 @@ class TestHotelManagementSystem(unittest.TestCase):
             Hotel.show_hotel_info(4)
             self.assertIn("Grand Plaza", fake_out.getvalue())
             self.assertIn("Downtown", fake_out.getvalue())
-            self.assertIn("does not exist.", fake_out.getvalue())            
+            self.assertIn("does not exist.", fake_out.getvalue())
         Hotel.delete_hotel(3)
 
     def test_create_customer(self):
@@ -66,6 +66,7 @@ class TestHotelManagementSystem(unittest.TestCase):
         """Test deleting an existing customer from the system."""
         Customer.create_customer(2, "Delete Customer", "delete@customer.com")
         Customer.delete_customer(2)
+        Customer.delete_customer(3)
         Customer.load_customers()
         self.assertNotIn('2', Customer.customers)
 
