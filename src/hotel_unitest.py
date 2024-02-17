@@ -1,7 +1,7 @@
 """unittest module"""
 import unittest
 import os
-from .__init__ import Hotel, Customer, Reservation
+from .hostelry_module import Hotel, Customer, Reservation
 
 class TestHotelManagementSystem(unittest.TestCase):
     """
