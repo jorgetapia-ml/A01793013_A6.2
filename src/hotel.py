@@ -1,3 +1,4 @@
+"""Hotel module"""
 import json
 
 class Hotel:
@@ -8,7 +9,7 @@ class Hotel:
     def load_hotels():
         """Load hotels from a file."""
         try:
-            with open('hotels.json', 'r') as file:
+            with open('hotels.json', 'r', encoding="utf8") as file:
                 Hotel.hotels = json.load(file)
         except FileNotFoundError:
             Hotel.hotels = {}
@@ -16,7 +17,7 @@ class Hotel:
     @staticmethod
     def save_hotels():
         """Save hotels to a file."""
-        with open('hotels.json', 'w') as file:
+        with open('hotels.json', 'w', encoding="utf8") as file:
             json.dump(Hotel.hotels, file, indent=4)
 
     @classmethod

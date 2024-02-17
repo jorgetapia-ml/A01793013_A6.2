@@ -1,3 +1,4 @@
+"""Reservation Module"""
 import json
 
 class Reservation:
@@ -8,7 +9,7 @@ class Reservation:
     def load_reservations():
         """Load reservations from a file."""
         try:
-            with open('reservations.json', 'r') as file:
+            with open('reservations.json', 'r', encoding="utf8") as file:
                 Reservation.reservations = json.load(file)
         except FileNotFoundError:
             Reservation.reservations = {}
@@ -16,7 +17,7 @@ class Reservation:
     @staticmethod
     def save_reservations():
         """Save reservations to a file."""
-        with open('reservations.json', 'w') as file:
+        with open('reservations.json', 'w', encoding="utf8") as file:
             json.dump(Reservation.reservations, file, indent=4)
 
     @classmethod

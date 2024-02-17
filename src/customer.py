@@ -1,3 +1,4 @@
+""" Customer mdoule"""
 import json
 
 class Customer:
@@ -8,7 +9,7 @@ class Customer:
     def load_customers():
         """Load customers from a file."""
         try:
-            with open('customers.json', 'r') as file:
+            with open('customers.json', 'r', encoding="utf8") as file:
                 Customer.customers = json.load(file)
         except FileNotFoundError:
             Customer.customers = {}
@@ -16,7 +17,7 @@ class Customer:
     @staticmethod
     def save_customers():
         """Save customers to a file."""
-        with open('customers.json', 'w') as file:
+        with open('customers.json', 'w', encoding="utf8") as file:
             json.dump(Customer.customers, file, indent=4)
 
     @classmethod
