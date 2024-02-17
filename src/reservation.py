@@ -21,7 +21,8 @@ class Reservation:
             json.dump(Reservation.reservations, file, indent=4)
 
     @classmethod
-    def create_reservation(cls, reservation_id: int, hotel_id: int, customer_id: int, check_in: str, check_out: str):
+    def create_reservation(cls, reservation_id: int, hotel_id: int, 
+                           customer_id: int, check_in: str, check_out: str):
         """Create a new reservation and add it to the reservations dictionary."""
         cls.load_reservations()
         if str(reservation_id) in cls.reservations:
